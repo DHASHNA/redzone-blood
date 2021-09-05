@@ -1,0 +1,793 @@
+<html>
+<head>
+    <title>
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/513d9616f7.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body> 
+<!-------------------------------------------------Navigation section-------------------------------------------------------------------------->
+<div id="nav-part">
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-fixed">
+    <div class="navbar-brand"> <h4>RedZone</h4></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa fa-bars"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="fa fa-home"></span>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="fa fa-fighter-jet"></span>what get</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="fa fa-user"></span>why doante</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" ><span class="fa fa-download" onclick="alert('no link available')"></span>Link</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>   
+</div>
+
+
+<!---------------------------------------------------banner section------------------------------------------------------------------------------>
+<section id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="promo-title">Blood Donation</p>
+        <p class="sub">The blood you donate gives someone
+            another chance at life</p>
+            <p class="sub">Give the gift of life</p>
+
+            <h1 class="number text-center">
+              <div class="spinner-grow" role="status">
+                  <span class="sr-only">loading.....</span>
+              </div> 24x7 Help line</h1>
+
+              <div class="row text-center">
+                <div class="col-md-12">
+                 <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" id="btn1">
+              Register
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+               
+                    <table>
+                      <tr>
+                        <td>E-Mail Id*</td><br><td><input type="email" placeholder="Enter Your Email Address" ></td>
+                      </tr>
+                       <tr>
+                        <td>Name*</td><br><td><input type="name" placeholder="Enter Your Name"></td>
+                        <br>
+                      </tr>
+                      <tr>
+                        <td>Password*</td><br><td><input type="password" placeholder="Enter Password"></td>
+                      </tr>
+                      <tr><td>Cuntry*</td>
+                       <td> <select>
+                          <option>--select Cuntry--</option>
+                          <option>India</option>
+                        </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>state*</td><br><td>
+                        <select>
+                          <option>--select state--</option>
+                           <option>TamilNadu</option>
+                         </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Distict*</td><br><td> <select>
+                          <option>--select Dist--</option>
+                          <option>Kanchipuram</option>
+                          <option>Chengalpattu</option>
+                          <option>Selam</option>
+                          <option>Theni</option>
+                        </select></td>
+                        <br>
+                      </tr>
+            
+                      <tr>
+                        <td>
+                          Blood Group*:
+                        </td>
+                        <td>
+                          <select>
+                            <option>--select Blood--</option>
+                            <option>O+ positive</option>
+                            <option>B+ positive</option>
+                            <option>O- Negative</option>
+                            <option>AB+ positive</option>
+                          </select>
+                        </td>
+                      </tr>
+            
+                     <tr>
+                       <td>Ph Number*:</td>
+                       <td>
+                         <input type="num" placeholder="Enter Your Phone Number">
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>Age:*</td>
+                       <td>
+                         <input type="number" placeholder="Enter Your Age">
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>
+                         Location:
+                       </td>
+                       <td>
+                         <input type="name" placeholder="Enter Your Location">
+                       </td>
+                     </tr>
+            
+            
+                    </table>
+                   
+            
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+                 
+                </div>
+              </div>
+
+      </div>
+     
+    </div>
+
+  </div>
+
+  
+</section>
+
+<!----------------------------------------------------register section---------------------------------------------------------------------------->
+<section id="register">
+  <div class="container text-center">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <form>
+        <h3>Search blood</h3>
+      <table>
+        <tr>
+            <select>
+              <option>--select Country--</option>
+            <option>India</option>
+            </select>
+        </tr>
+        <br>
+        
+        <tr>
+           <select>
+            <option>--select state--</option>
+             <option>TamilNadu</option>
+           </select>
+        </tr>
+        <br>
+    
+        <tr>
+          <select>
+            <option>--select Dist--</option>
+            <option>Kanchipuram</option>
+            <option>Chengalpattu</option>
+            <option>Selam</option>
+            <option>Theni</option>
+          </select>
+        </tr>
+            <br>
+          
+            <tr>
+              <select>
+                <option>--select Blood--</option>
+                <option>O+ positive</option>
+                <option>B+ positive</option>
+                <option>O- Negative</option>
+                <option>AB+ positive</option>
+              </select>
+            </tr>
+           <br>
+      </table>
+      <br>
+      <input type="button" value="Search">
+    </form>
+
+      
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<!-------------------------------------------------information section---------------------------------------------------------------------------->
+
+<section id="info">
+  <div class="container text-center">
+     <h1 class ="question1">Health Benifits?</h1>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="images/1.png"   height="200px" width="300px">
+        <h4 class="sub-title">Health Benifits</h4>
+        <p>Health benefits of donating blood include good health and reduced risk of cancer and hemochromatosis. 
+          It helps in reducing the risk of damage to liver and pancreas.
+           Donating blood may help in improving cardiovascular health and reducing obesity.</p>
+      </div>
+
+      <div class="col-md-4">
+          <img src="images/2.png"  height="200px" width="300px">
+          <h4 class="sub-title">Blood Save</h4>
+          <p>Blood transfusion saves lives and improves health,
+             but many patients requiring transfusion do not have timely access to safe blood</p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="images/3.png"  height="200px" width="300px">
+            <h4 class="sub-title">Most Need Blood</h4>
+            <p>However, the need for O negative blood is the highest because it is used most often during emergencies.
+               The need for O+ is high because it is the most frequently occurring blood type (37% of the population).
+               The universal red cell donor has Type O negative blood.</p>
+          </div>
+    </div>
+  </div>
+</section>
+
+<!--------------------------------------------------------About us section---------------------------------------------------------------------->
+
+<section id="about-us">
+  <div class="container">
+      <h1 class ="question2 text-center">WHY WE DONATE?</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="about-title">About us:-</h4>
+
+        <p>Blood cannot be manufactured in factories; it can only come from generous donors. 
+          To cater to this demand, BloodConnect was launched on 1st April, 2010 (as a project under NSS IIT Delhi) with 
+          an unparalleled objective of solving the problem of blood shortage in India.
+          According to WHO data, India faces a shortage of 3 million blood units. 
+            This shortage can easily be eliminated if only an additional 2% of India's youth donates blood. To make this possible,
+             BloodConnect acts as a channel connecting voluntary blood donors with those who need blood. It is a youth-run organization 
+             and provides free help and specially works to target the poor and the needy.
+            Since its inception, the organization has grown a lot in terms of working for this cause. 
+            BloodConnect has developed a 360 degree solution to the problem of blood shortage.
+          </p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/logo2.png" class="img-fluid" height="400px" width="450px" >
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2>The model revolves around 4 focal points:</h2>
+      <ul>
+        <li>*Ensuring continuous, sufficient blood supply to blood banks through blood donation camps and weekly donations.</li>
+        <li>*Improving awareness by organizing Street Plays, Info-Talks, Competitions.</li>
+        <li>*Helping those in dire need by operating an emergency 24x7 helpline.</li>
+        <li>*Establishing a network of youth across the country to lead the movement.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-------------------------------------------------------------Tips section--------------------------------------------------------------------------------->
+
+<section id="tips">
+
+    <div class="container">
+        <h1 class ="question3 text-center">Doctors tips</h1>
+      <div class="row">
+        <div class="col-md-4 tips">
+          <p><b>Start Your RapidPass</b></p>
+              <p>Donating blood today? Complete your pre-reading and health history questions online using any device, 
+              before visiting your blood drive location.</p>
+          <img src="images/pro 1.jpg">
+          <p><b>Hematologists</b></p>
+        </div>
+
+        <div class="col-md-4 tips">
+            <p><b>Am I Eligible to Donate Blood?</b></p>
+                <p>Are you eligible for blood donation? Find out about the eligibility requirements to donate blood today.
+                   Learn about general health, travel, medications, tattoos, and more 
+                </p>
+            <img src="images/pro 2.jpg">
+            <p><b>Hematologists</b></p>
+        </div>
+
+           <div class="col-md-4 tips">
+                  <p><b>Never Donated Blood Before?</b></p>
+                      <p>Blood donations can help save people's lives. Learn how blood donations help,
+                         what to expect, and how to get ready for your first blood donation 
+                      </p>
+                  <img src="images/pro 3.jpg">
+                  <p><b>Hematologists</b></p>
+           </div>    
+    </div>
+    </div>
+</section>
+
+
+<!---------------------------------------------------footer section-------------------------------------------------------------------------------->
+
+<!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+  <!-- Footer Links -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">About us</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Products</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Awards</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Help</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Contact</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    <hr class="rgba-white-light" style="margin: 0 15%;">
+
+    <!-- Grid row-->
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+      <!-- Grid column -->
+      <div class="col-md-8 col-12 mt-5">
+        <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+    <!-- Grid row-->
+    <div class="row pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-12">
+
+        <div class="mb-5 flex-center" style="text-align: center;">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <!-- <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i> -->
+            <i class="fab fa-facebook fa-lg white-text mr-4"></i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text"> </i>
+          </a>
+
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#"> example123@gmail.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!--------------------------------------------------style.css----------------------------------------------------------------------------------->
+
+
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(images/9.jpg);
+    opacity: 10.5;
+    background-position: center;
+    background-size:cover; 
+    
+}
+/*--------------------------------------------------------------------navigation section------------------------------------------------*/
+#nav-part 
+{
+  background-color: gray;
+}
+
+
+/*------------------------------------------------------------------banner section------------------------------------------------------------------*/
+#banner .col-md-12
+{
+  margin-top: 40px;
+}
+#banner
+{
+  background-image:url(images/11.jpg);
+  background-size:cover;
+  background-position:center;
+  overflow: hidden;
+  min-height:70%;
+}
+.promo-title
+{
+  font-size: 60px;
+  font-weight:bold;
+  color:red;
+  text-shadow:0px 0px 5px black;
+}
+.sub
+{
+  font-weight:bolder;
+  font-size:30px;
+  color:white;
+  text-shadow:0px 0px 5px black;
+}
+.bottom-img
+{
+  opacity: 0.6;
+}
+.number
+{
+  color:yellow;
+  text-shadow:0px 0px 4px black;
+}
+
+/*-----------------------------------------------------------information section----------------------------------------------------------------*/
+
+.col-md-12 #btn1
+{
+  height: 50px;
+  width:300px;
+  border-color: rgb(255, 251, 0);
+  font-family: monospace;
+  font-style: italic;
+  background-color:yellow;
+ font-size:26px;
+ color:white;
+ font-weight: bolder;
+ text-align: center;
+ border-radius: 20px;
+ text-shadow:0px 0px 5px black;
+}
+.modal-body
+{
+  position: relative;
+  height:400px;
+}
+.modal-body table tr td
+{
+  padding-bottom:15px;
+}
+.col-md-12 form
+{
+  height:400px;
+  width:50%;
+  min-width: 320px;
+  position: relative;
+  top:30px;
+  margin:0 auto;
+  padding-top:50px;
+  flex-wrap: wrap;
+  box-flex:initial;
+  background: rgba(0,0,0,.2);
+}
+.col-md-12 form select
+{
+width:80%;
+height:50px;
+}
+
+.col-md-12 form input
+{
+  
+  height:40px;
+  width:200px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.col-md-12 h3
+{
+  color:rgb(236, 16, 16);
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+
+
+
+#info h1
+{
+  position: relative;
+  top:70px;
+}
+
+.sub-title
+{
+  font-weight: bold;
+}
+.col-md-4
+{
+  padding-right:40px;
+  top:110px;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 400px;
+}
+
+.question1::before
+{
+content: '';
+background-color: yellow;
+height: 5px;
+width:200px;
+margin-left: auto;
+margin-right:auto;
+display:block;
+transform: translateY(63px);
+}
+.question1::after
+{
+content: '';
+background-color: yellow;
+height: 10px;
+width:50px;
+margin-left: auto;
+margin-right:auto;
+display:block;
+transform: translateY(7px);
+}
+#info .col-md-4
+{
+  position: relative;
+  max-width:400px;
+  padding: 10px;
+  box-shadow:0 5px 15px rgba(0,0,0,.9);
+  overflow: hidden;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+}
+#info .col-md-4
+{
+  background-color:transparent;
+}
+/*--------------------------------------------------------------About-section---------------------------------------------------------------------------*/
+
+#about-us
+{
+
+  padding-top:280px;
+  
+  
+}
+.question2::before
+{
+content: '';
+background-color: yellow;
+height: 5px;
+width:200px;
+margin-left: auto;
+margin-right:auto;
+display:block;
+transform: translateY(63px);
+}
+.question2::after
+{
+content: '';
+background-color: yellow;
+height: 10px;
+width:50px;
+margin-left: auto;
+margin-right:auto;
+display:block;
+transform: translateY(7px);
+}
+.container h1
+{
+  margin-bottom:50px;
+  text-transform: lowercase;
+}
+.col-md-6 p
+{
+text-align: center;
+font-weight: bold;
+}
+.about-title
+{
+  padding-bottom: 10px;
+  font-weight: bold;
+   font-size:30px;
+}
+.col-md-6 img
+{
+  padding-left:20px;
+}
+#about-us .col-md-6
+{
+  position: relative;
+  max-width:1000px;
+  padding: 10px;
+  box-shadow:0 5px 15px rgba(0,0,0,.9);
+  overflow: hidden;
+  color: #000;
+  font-style: italic; 
+}
+#about-us .col-md-12
+{
+  position: relative;
+ 
+  padding: 10px;
+  box-shadow:0 5px 15px rgba(0,0,0,.9);
+  overflow: hidden;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+}
+/*---------------------------------------------Register section--------------------------------------------------------------------------------*/
+.modal-body table
+{
+ position: absolute;
+ top:0;
+}
+.modal-body table input
+{
+  width:250px;
+}
+.modal-body table select
+{
+  width:250px;
+}
+
+/*-----------------------------------------------------Tips section-----------------------------------------------------------------------------------*/
+#tips
+{
+  padding-top:100px;
+  font-weight: bold;
+  font-style: italic;
+  color:black
+}
+.question3::before
+{
+content: '';
+background-color: yellow;
+height: 5px;
+width:200px;
+margin-left: auto;
+margin-right:auto;
+display:block;
+transform: translateY(63px);
+}
+.question3::after
+{
+content: '';
+background-color: yellow;
+height: 10px;
+width:50px;
+margin-left: auto;
+margin-right:auto;
+display:block;
+transform: translateY(7px);
+}
+
+.tips
+{
+  border-left:5px solid yellow;
+  margin-top:50px;
+  margin-bottom:10px;
+  top:-40px;
+}
+.tips img
+{
+  height:130px;
+  width:130px;
+  border-radius: 50%;
+  margin:0 10px;
+}
+.page-footer{
+  z-index: 99;
+  background-color: rgb(80, 78, 78);
+}
+</style>
+
+</body>
+</html>
